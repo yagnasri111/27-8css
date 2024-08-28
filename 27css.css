@@ -1,0 +1,117 @@
+
+body {
+    margin: 10px;
+    padding-left: 400px;
+    
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 700px;
+    height: 700px;
+    display: grid;
+    gap: 8px;
+    overflow: hidden;
+    grid-template-columns: repeat(7, 85px);
+    grid-template-rows: repeat(7, 85px);
+    grid-template-areas:
+    "a b b c d e e"
+    "f g g g h e e"
+    "f g g g i e e"
+    "f j j j i k l"
+    "m j j j n o l"
+    "m j j j n p q"
+    "r j j j n s q" ; 
+  }
+  
+  .item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .container > :nth-child(1){
+    grid-area: a;
+    background-color: lightblue;
+  }
+  .container > :nth-child(2){
+    grid-area: b;
+    background-color: lightcoral;
+  }
+  .container > :nth-child(3){
+    grid-area: c;
+    background-color: lightgoldenrodyellow;
+  }
+  .container > :nth-child(4){
+    grid-area: d;
+    background-color: lightcyan;
+  
+  }
+  .container > :nth-child(5){
+    grid-area: e;
+    background-color: lightgray;
+  
+  }
+  .container > :nth-child(6){
+    grid-area: f;
+    background-color: lightgreen;
+  
+  }
+  .container > :nth-child(7){
+    grid-area: g;
+    background-color: lightpink;
+  
+  }
+  .container > :nth-child(8){
+    grid-area: h;
+    background-color: lightsalmon;
+  
+  }
+  .container > :nth-child(9){
+    grid-area: i;
+  background-color: lightseagreen;
+  }
+  .container > :nth-child(10){
+    grid-area: j;
+  background-color: lightskyblue;
+  }
+  .container > :nth-child(11){
+    grid-area: k;
+  background-color: lightslategray;
+  }
+  .container > :nth-child(12){
+    grid-area: l;
+  background-color: lightslategrey;
+  }
+  .container > :nth-child(13){
+    grid-area: m;
+  background-color: lightsteelblue;
+  }
+  .container > :nth-child(14){
+    grid-area: n;
+  background-color: darksalmon;
+  }
+  .container > :nth-child(15){
+    grid-area: o;
+  background-color: lime;
+  }
+  .container > :nth-child(16){
+    grid-area: p;
+  background-color: aquamarine;
+  }
+  .container > :nth-child(17){
+    grid-area: q;
+  background-color: cadetblue;
+  }
+  .container > :nth-child(18){
+    grid-area: r;
+  background-color: burlywood;
+  }
+  .container > :nth-child(19){
+    grid-area: s;
+  background-color: cornflowerblue;
+  }
+  
